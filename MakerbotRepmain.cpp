@@ -43,6 +43,16 @@ int main()
 
 
 		};
+	class Makerbotreplicatorpluscamera {
+			int camerapoint, cameralocation;
+		public:
+			void set_values(int, int,);
+			int mrp(void);
+
+
+
+
+		};
 
 
 
