@@ -33,13 +33,22 @@ int main()
 
 
 		};
+		class Makerbotreplicatorplussmartextruder {
+			int extrudertemp, smartextrudery, smartextruderz;
+		public:
+			void set_values(int, int, int);
+			int mrp(void);
+
+
+
+
+		};
 
 
 
 
 
 	}
-
 
 
 
