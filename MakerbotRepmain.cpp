@@ -5,6 +5,11 @@
 #include <string>
 
 
+#include <iostream>
+#include <cmath>
+#include <string>
+
+
 int main()
 {
 
@@ -23,53 +28,53 @@ int main()
 		int mrp(void);
 	};
 
-		class Makerbotreplicatorplusnozzle {
-			int nozzletemp, locationy, locationz;
-		public:
-			void set_values(int, int, int);
-			int mrp(void);
+	class Makerbotreplicatorplusnozzle {
+		int nozzletemp, locationy, locationz;
+	public:
+		void set_values(int, int, int);
+		int mrp(void);
 
 
 
 
-		};
-		class Makerbotreplicatorplussmartextruder {
-			int extrudertemp, smartextrudery, smartextruderz;
-		public:
-			void set_values(int, int, int);
-			int mrp(void);
+	};
+	class Makerbotreplicatorplussmartextruder {
+		int extrudertemp, smartextrudery, smartextruderz;
+	public:
+		void set_values(int, int, int);
+		int mrp(void);
 
 
 
 
-		};
+	};
 	class Makerbotreplicatorpluscamera {
-			int camerapoint, cameralocation;
-		public:
-			void set_values(int, int,);
-			int mrp(void);
+		int camerapoint, cameralocation;
+	public:
+		void set_values(int, int);
+		int mrp(void);
 
 
 
 
-		};
-	
+	};
+
 	class Makerbotreplicatorplusplayfillament {
-			int fillemantplatype, platemp;
-		public:
-			void set_values(int, int,);
-			int mrp(void);
+		int fillemantplatype, platemp;
+	public:
+		void set_values(int, int);
+		int mrp(void);
 
 
 
 
-		};
+	};
 
 
 
 
 
-	}
+}
 
 
 
