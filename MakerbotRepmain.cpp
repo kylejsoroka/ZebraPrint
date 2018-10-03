@@ -13,7 +13,8 @@ int main()
   int nozzle;
   int axis;
   int axisarraynumbering;
-  int 
+  int nozzletemp
+  int printbedtemp
     
   
 }
