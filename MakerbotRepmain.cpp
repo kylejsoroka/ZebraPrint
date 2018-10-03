@@ -53,6 +53,17 @@ int main()
 
 
 		};
+	
+	class Makerbotreplicatorplusplayfillament {
+			int fillemantplatype, platemp;
+		public:
+			void set_values(int, int,);
+			int mrp(void);
+
+
+
+
+		};
 
 
 
