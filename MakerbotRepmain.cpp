@@ -1,20 +1,50 @@
 
+//#include "pch.h" for visual studio
 #include <iostream>
 #include <cmath>
 #include <string>
 
-using namepace std;
 
 int main()
 {
-  
-  class makerbotrepplus
-  {
-    public
-    
-  }
-  }
-}  
+
+	class Makerbotreplicatorplus {
+		int nozzletemp, makerbotnum;
+	public:
+		void set_values(int, int);
+		int mrp(void);
+	};
+
+
+	class Makerbotreplicatorplusheatedbed {
+		int heatedbedtemp, bedarea, bedsize, locationy, locationz;
+	public:
+		void set_values(int, int, int);
+		int mrp(void);
+	};
+
+		class Makerbotreplicatorplusnozzle {
+			int nozzletemp, locationy, locationz;
+		public:
+			void set_values(int, int, int);
+			int mrp(void);
+
+
+
+
+		};
+
+
+
+
+
+	}
+
+
+
+
+
+
   
 
 
