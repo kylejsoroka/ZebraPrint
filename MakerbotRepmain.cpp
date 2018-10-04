@@ -1,10 +1,4 @@
 
-
-#include <iostream>
-#include <cmath>
-#include <string>
-
-
 #include <iostream>
 #include <cmath>
 #include <string>
