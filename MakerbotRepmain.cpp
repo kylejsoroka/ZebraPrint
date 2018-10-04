@@ -59,7 +59,7 @@ int main()
 
 	};
 
-	class Makerbotreplicatorplusplayfillament {
+	class Makerbotreplicatorplusplafillament {
 		int fillemantplatype, platemp;
 	public:
 		void set_values(int, int);
